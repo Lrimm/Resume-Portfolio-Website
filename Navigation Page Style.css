@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #0693e3, #8FFFFF); 
+    background-size: cover;
+}
+
+#links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+
+#links a {
+  display: block;
+  margin-bottom: 25px; 
+  color: ghostwhite;
+  text-decoration: none;/* Add space between links */
+  text-align: center; /* Align links to center */
+  transition: transform 0.2s;
+}
+
+a:hover {
+  color: lightgray; /* Change color on hover */
+  transform: scale(1.05); /* Scale up by 1.02 on hover */
+}
